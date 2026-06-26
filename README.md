@@ -1,37 +1,46 @@
-# Willys — Sheltie Practice Site
+﻿# Willys — Sheltie Practice Site
 
-A simple static HTML site created for practice, featuring Willys, my Sheltie, and some information about the Shetland Sheepdog breed.
+A static HTML site dedicated to Willys, my Sheltie, with information about the Shetland Sheepdog breed.
 
-## Description
+## What the site contains
 
-This is a simple static website built with plain HTML to practice structure and content. It introduces Willys, shares details about the Shetland Sheepdog breed, and includes local images stored in the `images/` folder.
+- `index.html` — homepage with an introduction to Willys, images, breed information, and a topic index.
+- `about.html` — a page about the website's creation, personal experience, and project purpose.
+- `images/` — local images used on the site, including photos of Willys and breed illustrations.
 
-## Pages
+## Current content
 
-- `index.html` — Home page with a short introduction, the main image and information about Willys and the Shetland Sheepdog breed.
-- `about.html` — More information about Willys and the website.
+The homepage includes:
 
-## How to view locally
+- introduction to Willys and his breed as a Sheltie;
+- explanation of what a Sheltie is and the breed's origins;
+- information about Shetland Sheepdog history and genetics;
+- description of recognized coat patterns;
+- special care needed to keep a Sheltie healthy;
+- embedded YouTube video about the breed;
+- external links to reliable Sheltie references;
+- a simple contact form for sending messages.
+
+The `about.html` page describes the project motivation, the use of HTML practice, and a personal view of Willys.
+
+## How to open locally
 
 1. Open the project folder in your file explorer.
 2. Double-click `index.html` to open it in your browser.
 
-If you prefer, use a local server:
+Or, if you prefer, use a local server:
 
 ```bash
-# using Python 3
 python -m http.server 8000
-# then open http://localhost:8000 in your browser
 ```
+
+Then open `http://localhost:8000` in your browser.
 
 ## Notes
 
-- Images are stored in the `images/` directory, so keep that folder together when sharing the project.
-- This repository is a learning project with only static HTML and image files.
+- This project is a pure HTML practice site, without external CSS or advanced JavaScript.
+- Keep the `images/` folder together with the HTML files so images load correctly.
 
 ## Author
 
-Personal project by Willys' owner.
-
----
-You can copy and paste this file into the GitHub repository description or use it directly as `README.md`.
+Personal project created by Willys' owner.
