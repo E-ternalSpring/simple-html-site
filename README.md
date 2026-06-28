@@ -1,46 +1,105 @@
-﻿# Willys — Sheltie Practice Site
+# 🐶 Willys — A Simple HTML Website About My Sheltie
 
-A static HTML site dedicated to Willys, my Sheltie, with information about the Shetland Sheepdog breed.
+A simple static website built with **HTML5** as part of my web development learning journey.
 
-## What the site contains
+Instead of creating a fictional project, I chose to build a website dedicated to my Shetland Sheepdog, **Willys**, combining HTML practice with a topic I genuinely enjoy.
 
-- `index.html` — homepage with an introduction to Willys, images, breed information, and a topic index.
-- `about.html` — a page about the website's creation, personal experience, and project purpose.
-- `images/` — local images used on the site, including photos of Willys and breed illustrations.
+The website presents information about the breed, shares a few fun facts about Willys, and includes images, videos and useful external resources.
 
-## Current content
+---
 
-The homepage includes:
+## ✨ Features
 
-- introduction to Willys and his breed as a Sheltie;
-- explanation of what a Sheltie is and the breed's origins;
-- information about Shetland Sheepdog history and genetics;
-- description of recognized coat patterns;
-- special care needed to keep a Sheltie healthy;
-- embedded YouTube video about the breed;
-- external links to reliable Sheltie references;
-- a simple contact form for sending messages.
+- Semantic HTML structure
+- Responsive page layout
+- Images and embedded media
+- External links
+- Contact form
+- Organized project structure
 
-The `about.html` page describes the project motivation, the use of HTML practice, and a personal view of Willys.
+---
 
-## How to open locally
+## 🛠️ Technologies
 
-1. Open the project folder in your file explorer.
-2. Double-click `index.html` to open it in your browser.
+- HTML5
+- Semantic HTML
+- Local media assets
 
-Or, if you prefer, use a local server:
+---
 
-```bash
-python -m http.server 8000
+## 📂 Project Structure
+
+```text
+.
+├── images
+├── about.html
+├── index.html
+├── README.md
+└── LICENSE
 ```
 
-Then open `http://localhost:8000` in your browser.
+---
 
-## Notes
+## 🚀 Getting Started
 
-- This project is a pure HTML practice site, without external CSS or advanced JavaScript.
-- Keep the `images/` folder together with the HTML files so images load correctly.
+Clone the repository:
 
-## Author
+```bash
+git clone https://github.com/E-ternalSpring/static-html-website.git
+```
 
-Personal project created by Willys' owner.
+Open the project folder:
+
+```bash
+cd static-html-website
+```
+
+Finally, open `index.html` in your preferred web browser.
+
+---
+
+## 🌐 Live Demo
+
+https://e-ternalspring.github.io/static-html-website/
+
+---
+
+## 📚 What I Practiced
+
+This project was an opportunity to practice:
+
+- Semantic HTML
+- Page structure
+- Working with images and videos
+- Forms
+- Hyperlinks
+- Organizing static files
+- Writing project documentation
+
+---
+
+## 🔮 Future Improvements
+
+Some ideas for future versions:
+
+- Add CSS animations
+- Improve responsiveness for mobile devices
+- Include dark mode
+- Create additional pages
+- Improve accessibility (ARIA attributes)
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License.
+
+See the file for details.
+
+---
+
+## 👩‍💻 Author
+
+**Emmanuelle Espindola**
+
+GitHub: https://github.com/E-ternalSpring
